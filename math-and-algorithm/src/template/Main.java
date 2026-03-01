@@ -1,4 +1,4 @@
-package A;
+package ID;
 //cd src
 
 // javac A/Main.java

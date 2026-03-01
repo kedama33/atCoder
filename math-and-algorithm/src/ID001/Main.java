@@ -1,4 +1,4 @@
-package A;
+package ID001;
 //cd src
 
 // javac A/Main.java
@@ -11,6 +11,10 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		final int mikanNum = sc.nextInt();
+		sc.close();
+
+		System.out.println(5 + mikanNum);
 
 	}
 }

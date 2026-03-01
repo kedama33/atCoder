@@ -1,4 +1,4 @@
-package A;
+package ID002;
 //cd src
 
 // javac A/Main.java
@@ -11,6 +11,13 @@ public class Main {
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
+		int ans = 0;
+		for (int i = 0; i < 3; i++) {
+			ans += sc.nextInt();
+		}
+		sc.close();
+
+		System.out.println(ans);
 
 	}
 }
